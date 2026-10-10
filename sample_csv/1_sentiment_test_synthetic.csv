@@ -1,0 +1,53 @@
+review_id,product,review_text,expected_sentiment,rating
+T001,TestPhone A,The camera quality is excellent.,positive,5
+T002,TestPhone B,"I love this phone, it works perfectly.",positive,5
+T003,TestPhone A,"Great screen, very bright and sharp.",positive,5
+T004,TestPhone B,"The battery lasts all day, I am very happy.",positive,5
+T005,TestPhone A,Fantastic value for the price.,positive,5
+T006,TestPhone B,Setup was easy and the software is smooth.,positive,5
+T007,TestPhone A,The sound is amazing and the build feels solid.,positive,5
+T008,TestPhone B,Best purchase I have made this year.,positive,5
+T009,TestPhone A,"Very fast and reliable, highly recommended.",positive,5
+T010,TestPhone B,The design is beautiful and comfortable to hold.,positive,5
+T011,TestPhone A,"Excellent performance, no lag at all.",positive,5
+T012,TestPhone B,Wonderful speakers with deep bass.,positive,5
+T013,TestPhone A,The battery drains very quickly.,negative,1
+T014,TestPhone B,"Terrible camera, the photos are blurry.",negative,1
+T015,TestPhone A,"The screen cracked within a week, awful quality.",negative,1
+T016,TestPhone B,"Worst purchase ever, total waste of money.",negative,1
+T017,TestPhone A,The software keeps crashing and freezing.,negative,1
+T018,TestPhone B,Way too expensive for what it offers.,negative,1
+T019,TestPhone A,The charger stopped working after two days.,negative,1
+T020,TestPhone B,"Very slow and laggy, I regret buying it.",negative,1
+T021,TestPhone A,The plastic feels cheap and flimsy.,negative,1
+T022,TestPhone B,"Poor sound, the volume is far too low.",negative,1
+T023,TestPhone A,"Disappointing display, the colors look washed out.",negative,1
+T024,TestPhone B,It broke after a month and support was useless.,negative,1
+T025,TestPhone A,The display is okay.,neutral,3
+T026,TestPhone B,I have used this product for three days.,neutral,3
+T027,TestPhone A,It arrived on Tuesday in a brown box.,neutral,3
+T028,TestPhone B,The phone comes in black and silver.,neutral,3
+T029,TestPhone A,The package includes a charger and a manual.,neutral,3
+T030,TestPhone B,I bought this for my sister.,neutral,3
+T031,TestPhone A,"The screen is average, nothing special.",neutral,3
+T032,TestPhone B,It has a six inch display.,neutral,3
+T033,TestPhone A,The box was medium sized.,neutral,3
+T034,TestPhone B,I use it mostly at home.,neutral,3
+T035,TestPhone A,"The camera is excellent, but the battery is terrible.",mixed,3
+T036,TestPhone B,Great screen but the software crashes a lot.,mixed,3
+T037,TestPhone A,"The sound is amazing, however the build feels flimsy.",mixed,3
+T038,TestPhone B,"Love the design, but it is far too expensive.",mixed,3
+T039,TestPhone A,Fast performance although the battery drains quickly.,mixed,3
+T040,TestPhone B,"The display is gorgeous, but the camera is disappointing.",mixed,3
+T041,TestPhone A,Excellent speakers but terrible software.,mixed,3
+T042,TestPhone B,"The price is great, but the quality is awful.",mixed,3
+T043,TestPhone A,"Very easy setup, but the screen is dim and poor.",mixed,3
+T044,TestPhone B,Battery life is wonderful but the camera is bad.,mixed,3
+T045,TestPhone A,The phone is not good.,negative,1
+T046,TestPhone B,The software is not bad.,positive,5
+T047,TestPhone A,The camera is not great at all.,negative,1
+T048,TestPhone B,I am not happy with the battery.,negative,1
+T049,TestPhone A,The screen is not terrible.,positive,5
+T050,TestPhone B,This is not a bad deal.,positive,5
+T051,TestPhone A,The speakers are not impressive.,negative,1
+T052,TestPhone B,The build quality is not poor.,positive,5

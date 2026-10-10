@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+data/uploads/
+data/datasets/
+data/logs/
+data/ledger.json
+spark-warehouse/
+metastore_db/
+derby.log
+*.log

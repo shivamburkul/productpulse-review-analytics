@@ -1,0 +1,601 @@
+review_id,product,review_text,rating
+M0001,AuroraPhone X,Disappointing display with poor colors.,1
+M0002,AuroraPhone X,"Cheap but excellent quality. Great battery life, charging is fast.",5
+M0003,AuroraPhone X,Love the camera and the zoom.,4
+M0004,AuroraPhone X,Battery died after a few hours.,2
+M0005,AuroraPhone X,"The camera is disappointing, photos are blurry.",1
+M0006,AuroraPhone X,"Excellent screen, very sharp. Apps open quickly, very reliable.",4
+M0007,AuroraPhone X,Love the camera and the zoom. The battery drains very quickly.,4
+M0008,AuroraPhone X,Cheap but excellent quality.,5
+M0009,AuroraPhone X,Performance is excellent and very smooth.,4
+M0010,AuroraPhone X,The battery drains very quickly. Performance is excellent and very smooth.,2
+M0011,AuroraPhone X,The display is bright and beautiful. The price is very fair for what you get.,4
+M0012,AuroraPhone X,"Apps open quickly, very reliable. Colors on the screen look stunning.",5
+M0013,AuroraPhone X,Way too expensive for what it offers.,2
+M0014,AuroraPhone X,"It runs fast with no lag. Excellent screen, very sharp.",5
+M0015,AuroraPhone X,"Excellent screen, very sharp.",5
+M0016,AuroraPhone X,The display is bright and beautiful.,4
+M0017,AuroraPhone X,The display is bright and beautiful.,5
+M0018,AuroraPhone X,"Photos look great, even in low light.",4
+M0019,AuroraPhone X,"Performance is bad, the apps freeze.",2
+M0020,AuroraPhone X,It is slow and laggy. The battery easily lasts two days.,1
+M0021,AuroraPhone X,It is slow and laggy.,1
+M0022,AuroraPhone X,"Terrible battery life, charging is slow.",2
+M0023,AuroraPhone X,Battery died after a few hours.,1
+M0024,AuroraPhone X,"Constant crashes, very sluggish.",2
+M0025,AuroraPhone X,It runs fast with no lag.,5
+M0026,AuroraPhone X,"The camera takes sharp, vivid photos.",4
+M0027,AuroraPhone X,"The display is bright and beautiful. Terrible battery life, charging is slow.",4
+M0028,AuroraPhone X,Camera quality is poor.,2
+M0029,AuroraPhone X,"Colors on the screen look stunning. Overpriced, not worth the money.",5
+M0030,AuroraPhone X,It runs fast with no lag. Colors on the screen look stunning.,4
+M0031,AuroraPhone X,Cheap but excellent quality.,4
+M0032,AuroraPhone X,Cheap but excellent quality.,5
+M0033,AuroraPhone X,Way too expensive for what it offers.,1
+M0034,AuroraPhone X,The price is far too high.,1
+M0035,AuroraPhone X,Way too expensive for what it offers.,2
+M0036,AuroraPhone X,"Great battery life, charging is fast.",4
+M0037,AuroraPhone X,"Photos look great, even in low light.",5
+M0038,AuroraPhone X,"Constant crashes, very sluggish.",2
+M0039,AuroraPhone X,"The camera takes sharp, vivid photos.",5
+M0040,AuroraPhone X,Battery died after a few hours.,2
+M0041,AuroraPhone X,The display is bright and beautiful.,4
+M0042,AuroraPhone X,It is slow and laggy.,1
+M0043,AuroraPhone X,"Performance is bad, the apps freeze. The price is far too high.",1
+M0044,AuroraPhone X,The battery easily lasts two days. Way too expensive for what it offers.,5
+M0045,AuroraPhone X,"Excellent screen, very sharp. Love the camera and the zoom.",4
+M0046,AuroraPhone X,Way too expensive for what it offers.,1
+M0047,AuroraPhone X,The battery easily lasts two days.,4
+M0048,AuroraPhone X,Cheap but excellent quality.,4
+M0049,AuroraPhone X,Terrible camera in low light.,2
+M0050,AuroraPhone X,Great value for the money.,4
+M0051,AuroraPhone X,"Constant crashes, very sluggish. Great battery life, charging is fast.",1
+M0052,AuroraPhone X,Cheap but excellent quality.,5
+M0053,AuroraPhone X,"The camera is disappointing, photos are blurry. It runs fast with no lag.",2
+M0054,AuroraPhone X,Great value for the money.,4
+M0055,AuroraPhone X,"Excellent screen, very sharp.",4
+M0056,AuroraPhone X,"Overpriced, not worth the money.",1
+M0057,AuroraPhone X,It runs fast with no lag.,5
+M0058,AuroraPhone X,"Photos look great, even in low light. It is slow and laggy.",5
+M0059,AuroraPhone X,The battery easily lasts two days.,4
+M0060,AuroraPhone X,"Photos look great, even in low light. Colors on the screen look stunning.",5
+M0061,AuroraPhone X,Colors on the screen look stunning.,5
+M0062,AuroraPhone X,"Photos look great, even in low light.",4
+M0063,AuroraPhone X,"Apps open quickly, very reliable.",4
+M0064,AuroraPhone X,"The camera is disappointing, photos are blurry.",1
+M0065,AuroraPhone X,"The camera takes sharp, vivid photos.",4
+M0066,AuroraPhone X,Colors on the screen look stunning.,5
+M0067,AuroraPhone X,"Apps open quickly, very reliable.",5
+M0068,AuroraPhone X,Love the camera and the zoom. The battery easily lasts two days.,4
+M0069,AuroraPhone X,"The display is bright and beautiful. Photos look great, even in low light.",5
+M0070,AuroraPhone X,The display is bright and beautiful.,4
+M0071,AuroraPhone X,"Terrible camera in low light. The display flickers, awful.",2
+M0072,AuroraPhone X,"Overpriced, not worth the money.",1
+M0073,AuroraPhone X,The display is bright and beautiful.,4
+M0074,AuroraPhone X,Love the camera and the zoom.,4
+M0075,AuroraPhone X,"Overpriced, not worth the money. Apps open quickly, very reliable.",2
+M0076,AuroraPhone X,Great value for the money.,5
+M0077,AuroraPhone X,Battery died after a few hours.,1
+M0078,AuroraPhone X,It is slow and laggy.,1
+M0079,AuroraPhone X,"Photos look great, even in low light.",4
+M0080,AuroraPhone X,"Photos look great, even in low light.",5
+M0081,AuroraPhone X,"The price is very fair for what you get. Great battery life, charging is fast.",4
+M0082,AuroraPhone X,Colors on the screen look stunning.,5
+M0083,AuroraPhone X,"Great battery life, charging is fast. Colors on the screen look stunning.",4
+M0084,AuroraPhone X,"Apps open quickly, very reliable. The camera takes sharp, vivid photos.",4
+M0085,AuroraPhone X,Performance is excellent and very smooth. The display is bright and beautiful.,4
+M0086,AuroraPhone X,"Overpriced, not worth the money.",2
+M0087,AuroraPhone X,Battery performance is wonderful.,4
+M0088,AuroraPhone X,The price is far too high.,1
+M0089,AuroraPhone X,The price is far too high.,1
+M0090,AuroraPhone X,The price is far too high.,1
+M0091,AuroraPhone X,"The camera takes sharp, vivid photos.",4
+M0092,AuroraPhone X,"Constant crashes, very sluggish. Love the camera and the zoom.",1
+M0093,AuroraPhone X,Performance is excellent and very smooth.,4
+M0094,AuroraPhone X,Cheap but excellent quality.,4
+M0095,AuroraPhone X,"The display is bright and beautiful. Overpriced, not worth the money.",4
+M0096,AuroraPhone X,"Performance is bad, the apps freeze.",1
+M0097,AuroraPhone X,"Photos look great, even in low light.",5
+M0098,AuroraPhone X,Way too expensive for what it offers.,2
+M0099,AuroraPhone X,The screen is dim and washed out.,2
+M0100,AuroraPhone X,Colors on the screen look stunning.,5
+M0101,BoltPhone Lite,Camera quality is poor. The battery drains very quickly.,2
+M0102,BoltPhone Lite,"Apps open quickly, very reliable.",5
+M0103,BoltPhone Lite,The display is bright and beautiful. Love the camera and the zoom.,5
+M0104,BoltPhone Lite,"Excellent screen, very sharp.",4
+M0105,BoltPhone Lite,Colors on the screen look stunning.,4
+M0106,BoltPhone Lite,Camera quality is poor.,2
+M0107,BoltPhone Lite,"Great battery life, charging is fast.",5
+M0108,BoltPhone Lite,"Photos look great, even in low light.",4
+M0109,BoltPhone Lite,Battery performance is wonderful.,5
+M0110,BoltPhone Lite,Love the camera and the zoom. Great value for the money.,5
+M0111,BoltPhone Lite,Love the camera and the zoom.,4
+M0112,BoltPhone Lite,"Terrible battery life, charging is slow.",1
+M0113,BoltPhone Lite,Disappointing display with poor colors.,2
+M0114,BoltPhone Lite,Cheap but excellent quality. It runs fast with no lag.,5
+M0115,BoltPhone Lite,"Apps open quickly, very reliable. The price is very fair for what you get.",5
+M0116,BoltPhone Lite,"The display flickers, awful.",1
+M0117,BoltPhone Lite,"The display flickers, awful.",1
+M0118,BoltPhone Lite,Battery performance is wonderful.,5
+M0119,BoltPhone Lite,The price is very fair for what you get.,5
+M0120,BoltPhone Lite,It runs fast with no lag. The battery easily lasts two days.,5
+M0121,BoltPhone Lite,Battery performance is wonderful. Terrible camera in low light.,5
+M0122,BoltPhone Lite,It is slow and laggy.,2
+M0123,BoltPhone Lite,Camera quality is poor.,1
+M0124,BoltPhone Lite,Great value for the money. Battery performance is wonderful.,5
+M0125,BoltPhone Lite,It is slow and laggy. The price is very fair for what you get.,2
+M0126,BoltPhone Lite,Love the camera and the zoom.,5
+M0127,BoltPhone Lite,The battery easily lasts two days. Camera quality is poor.,5
+M0128,BoltPhone Lite,"The camera is disappointing, photos are blurry. The display is bright and beautiful.",2
+M0129,BoltPhone Lite,Battery performance is wonderful.,4
+M0130,BoltPhone Lite,Love the camera and the zoom.,4
+M0131,BoltPhone Lite,"Apps open quickly, very reliable. Disappointing display with poor colors.",5
+M0132,BoltPhone Lite,The battery easily lasts two days.,4
+M0133,BoltPhone Lite,"Performance is bad, the apps freeze. Battery performance is wonderful.",2
+M0134,BoltPhone Lite,Love the camera and the zoom.,5
+M0135,BoltPhone Lite,Battery performance is wonderful.,5
+M0136,BoltPhone Lite,"The screen is dim and washed out. Constant crashes, very sluggish.",1
+M0137,BoltPhone Lite,The battery easily lasts two days.,4
+M0138,BoltPhone Lite,"Great battery life, charging is fast.",5
+M0139,BoltPhone Lite,Terrible camera in low light.,1
+M0140,BoltPhone Lite,"Apps open quickly, very reliable. The battery drains very quickly.",4
+M0141,BoltPhone Lite,"The camera is disappointing, photos are blurry.",1
+M0142,BoltPhone Lite,Battery performance is wonderful.,4
+M0143,BoltPhone Lite,Terrible camera in low light. Cheap but excellent quality.,2
+M0144,BoltPhone Lite,"Disappointing display with poor colors. The camera takes sharp, vivid photos.",2
+M0145,BoltPhone Lite,It is slow and laggy.,1
+M0146,BoltPhone Lite,Performance is excellent and very smooth.,5
+M0147,BoltPhone Lite,"Photos look great, even in low light. The price is very fair for what you get.",5
+M0148,BoltPhone Lite,"The camera is disappointing, photos are blurry.",2
+M0149,BoltPhone Lite,"Photos look great, even in low light. Battery performance is wonderful.",4
+M0150,BoltPhone Lite,The price is very fair for what you get.,4
+M0151,BoltPhone Lite,"The display flickers, awful.",2
+M0152,BoltPhone Lite,"Excellent screen, very sharp.",4
+M0153,BoltPhone Lite,"The camera is disappointing, photos are blurry.",2
+M0154,BoltPhone Lite,"Performance is bad, the apps freeze.",1
+M0155,BoltPhone Lite,"Apps open quickly, very reliable.",4
+M0156,BoltPhone Lite,The price is very fair for what you get.,4
+M0157,BoltPhone Lite,Great value for the money. Terrible camera in low light.,5
+M0158,BoltPhone Lite,The battery drains very quickly.,2
+M0159,BoltPhone Lite,Great value for the money.,5
+M0160,BoltPhone Lite,"Great battery life, charging is fast.",4
+M0161,BoltPhone Lite,Cheap but excellent quality.,5
+M0162,BoltPhone Lite,Colors on the screen look stunning.,5
+M0163,BoltPhone Lite,"The battery easily lasts two days. Excellent screen, very sharp.",4
+M0164,BoltPhone Lite,Colors on the screen look stunning.,4
+M0165,BoltPhone Lite,"The camera is disappointing, photos are blurry. Great value for the money.",2
+M0166,BoltPhone Lite,Colors on the screen look stunning. Love the camera and the zoom.,4
+M0167,BoltPhone Lite,"The camera takes sharp, vivid photos.",5
+M0168,BoltPhone Lite,Love the camera and the zoom.,5
+M0169,BoltPhone Lite,"Great battery life, charging is fast. The screen is dim and washed out.",4
+M0170,BoltPhone Lite,Terrible camera in low light.,1
+M0171,BoltPhone Lite,Great value for the money. It is slow and laggy.,5
+M0172,BoltPhone Lite,Camera quality is poor.,1
+M0173,BoltPhone Lite,"Great battery life, charging is fast.",5
+M0174,BoltPhone Lite,The display is bright and beautiful.,5
+M0175,BoltPhone Lite,Performance is excellent and very smooth.,5
+M0176,BoltPhone Lite,It runs fast with no lag.,4
+M0177,BoltPhone Lite,It runs fast with no lag.,5
+M0178,BoltPhone Lite,"It is slow and laggy. Great battery life, charging is fast.",1
+M0179,BoltPhone Lite,The price is very fair for what you get.,4
+M0180,BoltPhone Lite,The battery easily lasts two days.,4
+M0181,BoltPhone Lite,"The camera takes sharp, vivid photos.",4
+M0182,BoltPhone Lite,"Apps open quickly, very reliable.",5
+M0183,BoltPhone Lite,Camera quality is poor.,1
+M0184,BoltPhone Lite,Battery performance is wonderful.,5
+M0185,BoltPhone Lite,The battery easily lasts two days.,4
+M0186,BoltPhone Lite,It runs fast with no lag. Battery performance is wonderful.,4
+M0187,BoltPhone Lite,"Excellent screen, very sharp.",5
+M0188,BoltPhone Lite,It runs fast with no lag.,5
+M0189,BoltPhone Lite,It is slow and laggy. The price is very fair for what you get.,2
+M0190,BoltPhone Lite,"Great battery life, charging is fast. Colors on the screen look stunning.",4
+M0191,BoltPhone Lite,"Constant crashes, very sluggish. Battery performance is wonderful.",2
+M0192,BoltPhone Lite,Cheap but excellent quality.,4
+M0193,BoltPhone Lite,Camera quality is poor.,1
+M0194,BoltPhone Lite,"Great battery life, charging is fast.",4
+M0195,BoltPhone Lite,"Great battery life, charging is fast.",5
+M0196,BoltPhone Lite,Battery performance is wonderful.,5
+M0197,BoltPhone Lite,"Great battery life, charging is fast. It is slow and laggy.",5
+M0198,BoltPhone Lite,The display is bright and beautiful.,5
+M0199,BoltPhone Lite,The screen is dim and washed out.,2
+M0200,BoltPhone Lite,"The camera is disappointing, photos are blurry.",2
+M0201,ClearView Monitor,Excellent build quality.,4
+M0202,ClearView Monitor,The price is far too high.,2
+M0203,ClearView Monitor,The price is very fair for what you get.,5
+M0204,ClearView Monitor,"Overpriced, not worth the money. Excellent screen, very sharp.",2
+M0205,ClearView Monitor,The price is far too high.,2
+M0206,ClearView Monitor,The display is bright and beautiful. Setup was simple and the interface is clean.,4
+M0207,ClearView Monitor,I love the look and feel.,4
+M0208,ClearView Monitor,Colors on the screen look stunning.,5
+M0209,ClearView Monitor,Updates are quick and the menu is intuitive.,4
+M0210,ClearView Monitor,"Beautiful, light and compact design. The screen is dim and washed out.",4
+M0211,ClearView Monitor,"Excellent build quality. Overpriced, not worth the money.",4
+M0212,ClearView Monitor,"Excellent screen, very sharp.",5
+M0213,ClearView Monitor,"Terrible interface, updates break things.",1
+M0214,ClearView Monitor,"Excellent screen, very sharp. Great value for the money.",4
+M0215,ClearView Monitor,"Excellent screen, very sharp.",4
+M0216,ClearView Monitor,Excellent build quality.,5
+M0217,ClearView Monitor,"Setup was simple and the interface is clean. The display flickers, awful.",5
+M0218,ClearView Monitor,Setup was simple and the interface is clean.,5
+M0219,ClearView Monitor,Colors on the screen look stunning. I love the look and feel.,4
+M0220,ClearView Monitor,"Excellent screen, very sharp.",5
+M0221,ClearView Monitor,"Excellent screen, very sharp.",5
+M0222,ClearView Monitor,Way too expensive for what it offers. The display is bright and beautiful.,1
+M0223,ClearView Monitor,Awkward shape and uncomfortable to hold. The software is easy to use and smooth.,2
+M0224,ClearView Monitor,Updates are quick and the menu is intuitive.,4
+M0225,ClearView Monitor,The plastic feels cheap and flimsy.,2
+M0226,ClearView Monitor,I love the look and feel. Great value for the money.,4
+M0227,ClearView Monitor,The display is bright and beautiful.,4
+M0228,ClearView Monitor,The display is bright and beautiful.,4
+M0229,ClearView Monitor,The display is bright and beautiful.,5
+M0230,ClearView Monitor,Heavy and clumsy design.,1
+M0231,ClearView Monitor,"The build is solid and durable. Excellent screen, very sharp.",4
+M0232,ClearView Monitor,"Way too expensive for what it offers. Beautiful, light and compact design.",2
+M0233,ClearView Monitor,The price is very fair for what you get.,4
+M0234,ClearView Monitor,The price is far too high.,2
+M0235,ClearView Monitor,"Setup was difficult and the app keeps crashing. Excellent screen, very sharp.",1
+M0236,ClearView Monitor,"Terrible interface, updates break things.",1
+M0237,ClearView Monitor,The software is buggy and confusing.,1
+M0238,ClearView Monitor,Way too expensive for what it offers. Updates are quick and the menu is intuitive.,1
+M0239,ClearView Monitor,Excellent build quality.,4
+M0240,ClearView Monitor,The price is far too high. I love the look and feel.,1
+M0241,ClearView Monitor,"Poor build quality, started cracking.",1
+M0242,ClearView Monitor,The price is very fair for what you get.,4
+M0243,ClearView Monitor,The plastic feels cheap and flimsy.,2
+M0244,ClearView Monitor,The price is far too high.,2
+M0245,ClearView Monitor,The design is ugly and bulky.,1
+M0246,ClearView Monitor,"The price is far too high. Terrible interface, updates break things.",2
+M0247,ClearView Monitor,I love the look and feel.,4
+M0248,ClearView Monitor,I love the look and feel.,4
+M0249,ClearView Monitor,Setup was simple and the interface is clean.,4
+M0250,ClearView Monitor,Heavy and clumsy design.,2
+M0251,ClearView Monitor,The design is sleek and comfortable.,4
+M0252,ClearView Monitor,"The design is ugly and bulky. Overpriced, not worth the money.",2
+M0253,ClearView Monitor,The build is solid and durable.,4
+M0254,ClearView Monitor,The price is very fair for what you get.,4
+M0255,ClearView Monitor,It broke after a month.,2
+M0256,ClearView Monitor,Feels sturdy with a premium metal body.,5
+M0257,ClearView Monitor,Colors on the screen look stunning.,5
+M0258,ClearView Monitor,I love the look and feel.,4
+M0259,ClearView Monitor,"Beautiful, light and compact design.",5
+M0260,ClearView Monitor,The display is bright and beautiful.,4
+M0261,ClearView Monitor,"Overpriced, not worth the money.",2
+M0262,ClearView Monitor,The software is buggy and confusing.,2
+M0263,ClearView Monitor,Colors on the screen look stunning.,4
+M0264,ClearView Monitor,The display is bright and beautiful. Way too expensive for what it offers.,5
+M0265,ClearView Monitor,Setup was simple and the interface is clean.,5
+M0266,ClearView Monitor,Updates are quick and the menu is intuitive.,4
+M0267,ClearView Monitor,The design is sleek and comfortable.,5
+M0268,ClearView Monitor,Colors on the screen look stunning.,4
+M0269,ClearView Monitor,Colors on the screen look stunning.,5
+M0270,ClearView Monitor,The software is easy to use and smooth.,5
+M0271,ClearView Monitor,Setup was difficult and the app keeps crashing.,1
+M0272,ClearView Monitor,The design is ugly and bulky.,1
+M0273,ClearView Monitor,Excellent build quality. I love the look and feel.,5
+M0274,ClearView Monitor,"Poor build quality, started cracking.",2
+M0275,ClearView Monitor,Way too expensive for what it offers.,2
+M0276,ClearView Monitor,The price is far too high. Colors on the screen look stunning.,2
+M0277,ClearView Monitor,"Beautiful, light and compact design.",5
+M0278,ClearView Monitor,"Terrible interface, updates break things.",1
+M0279,ClearView Monitor,Way too expensive for what it offers. The plastic feels cheap and flimsy.,2
+M0280,ClearView Monitor,The software is easy to use and smooth. Colors on the screen look stunning.,4
+M0281,ClearView Monitor,The software is easy to use and smooth. The build is solid and durable.,4
+M0282,ClearView Monitor,The plastic feels cheap and flimsy.,1
+M0283,ClearView Monitor,Setup was difficult and the app keeps crashing. I love the look and feel.,2
+M0284,ClearView Monitor,Colors on the screen look stunning.,4
+M0285,ClearView Monitor,The build is solid and durable.,4
+M0286,ClearView Monitor,The build is solid and durable.,4
+M0287,ClearView Monitor,Awkward shape and uncomfortable to hold.,2
+M0288,ClearView Monitor,"Overpriced, not worth the money.",1
+M0289,ClearView Monitor,I love the look and feel.,4
+M0290,ClearView Monitor,Updates are quick and the menu is intuitive.,5
+M0291,ClearView Monitor,Colors on the screen look stunning.,4
+M0292,ClearView Monitor,Colors on the screen look stunning.,5
+M0293,ClearView Monitor,Colors on the screen look stunning.,4
+M0294,ClearView Monitor,"Overpriced, not worth the money.",1
+M0295,ClearView Monitor,The price is very fair for what you get.,5
+M0296,ClearView Monitor,The software is easy to use and smooth.,4
+M0297,ClearView Monitor,Cheap but excellent quality.,4
+M0298,ClearView Monitor,"Excellent screen, very sharp.",4
+M0299,ClearView Monitor,"The build is solid and durable. Terrible interface, updates break things.",4
+M0300,ClearView Monitor,"Terrible interface, updates break things.",1
+M0301,EchoBuds Pro,The software is buggy and confusing. The plastic feels cheap and flimsy.,1
+M0302,EchoBuds Pro,"Terrible battery life, charging is slow.",1
+M0303,EchoBuds Pro,The design is ugly and bulky.,2
+M0304,EchoBuds Pro,The design is sleek and comfortable.,5
+M0305,EchoBuds Pro,The software is buggy and confusing.,1
+M0306,EchoBuds Pro,Amazing audio and clear volume.,5
+M0307,EchoBuds Pro,Excellent build quality.,4
+M0308,EchoBuds Pro,"Poor build quality, started cracking. The software is easy to use and smooth.",1
+M0309,EchoBuds Pro,Excellent build quality.,4
+M0310,EchoBuds Pro,The battery drains very quickly.,2
+M0311,EchoBuds Pro,Updates are quick and the menu is intuitive.,4
+M0312,EchoBuds Pro,Heavy and clumsy design.,1
+M0313,EchoBuds Pro,Music sounds fantastic on these.,5
+M0314,EchoBuds Pro,The design is ugly and bulky.,1
+M0315,EchoBuds Pro,Music sounds fantastic on these.,4
+M0316,EchoBuds Pro,Excellent build quality.,5
+M0317,EchoBuds Pro,Setup was simple and the interface is clean.,5
+M0318,EchoBuds Pro,The plastic feels cheap and flimsy.,1
+M0319,EchoBuds Pro,The design is ugly and bulky.,2
+M0320,EchoBuds Pro,Feels sturdy with a premium metal body.,5
+M0321,EchoBuds Pro,I love the look and feel.,5
+M0322,EchoBuds Pro,The software is buggy and confusing.,2
+M0323,EchoBuds Pro,The software is buggy and confusing.,2
+M0324,EchoBuds Pro,The software is buggy and confusing.,2
+M0325,EchoBuds Pro,Amazing audio and clear volume.,4
+M0326,EchoBuds Pro,Heavy and clumsy design. The software is buggy and confusing.,2
+M0327,EchoBuds Pro,Excellent build quality.,4
+M0328,EchoBuds Pro,I love the look and feel.,4
+M0329,EchoBuds Pro,The design is sleek and comfortable.,5
+M0330,EchoBuds Pro,Setup was simple and the interface is clean.,4
+M0331,EchoBuds Pro,It broke after a month.,2
+M0332,EchoBuds Pro,The plastic feels cheap and flimsy. Battery performance is wonderful.,2
+M0333,EchoBuds Pro,"Beautiful, light and compact design.",4
+M0334,EchoBuds Pro,"Great battery life, charging is fast.",4
+M0335,EchoBuds Pro,The design is sleek and comfortable. Music sounds fantastic on these.,4
+M0336,EchoBuds Pro,Music sounds fantastic on these.,4
+M0337,EchoBuds Pro,Awkward shape and uncomfortable to hold.,2
+M0338,EchoBuds Pro,The software is buggy and confusing.,1
+M0339,EchoBuds Pro,The design is sleek and comfortable.,4
+M0340,EchoBuds Pro,Amazing audio and clear volume.,5
+M0341,EchoBuds Pro,The plastic feels cheap and flimsy.,2
+M0342,EchoBuds Pro,The sound is crisp with deep bass.,4
+M0343,EchoBuds Pro,Disappointing sound quality.,1
+M0344,EchoBuds Pro,It broke after a month.,1
+M0345,EchoBuds Pro,"Great battery life, charging is fast.",4
+M0346,EchoBuds Pro,The software is buggy and confusing.,2
+M0347,EchoBuds Pro,Amazing audio and clear volume.,4
+M0348,EchoBuds Pro,"Beautiful, light and compact design.",4
+M0349,EchoBuds Pro,Feels sturdy with a premium metal body.,5
+M0350,EchoBuds Pro,Feels sturdy with a premium metal body. The battery drains very quickly.,5
+M0351,EchoBuds Pro,The battery drains very quickly.,1
+M0352,EchoBuds Pro,"Poor audio, the volume is too low.",1
+M0353,EchoBuds Pro,It broke after a month.,1
+M0354,EchoBuds Pro,It broke after a month.,2
+M0355,EchoBuds Pro,The sound is crisp with deep bass.,4
+M0356,EchoBuds Pro,Battery died after a few hours.,2
+M0357,EchoBuds Pro,"Great battery life, charging is fast. Amazing audio and clear volume.",5
+M0358,EchoBuds Pro,The battery easily lasts two days.,5
+M0359,EchoBuds Pro,"Music sounds fantastic on these. Beautiful, light and compact design.",4
+M0360,EchoBuds Pro,Awkward shape and uncomfortable to hold.,2
+M0361,EchoBuds Pro,The battery drains very quickly.,2
+M0362,EchoBuds Pro,Battery performance is wonderful.,4
+M0363,EchoBuds Pro,Music sounds fantastic on these.,4
+M0364,EchoBuds Pro,Excellent build quality.,5
+M0365,EchoBuds Pro,Feels sturdy with a premium metal body. The battery easily lasts two days.,4
+M0366,EchoBuds Pro,The battery easily lasts two days.,5
+M0367,EchoBuds Pro,The design is sleek and comfortable.,4
+M0368,EchoBuds Pro,The software is buggy and confusing. The plastic feels cheap and flimsy.,2
+M0369,EchoBuds Pro,I love the look and feel.,5
+M0370,EchoBuds Pro,Amazing audio and clear volume. Excellent build quality.,5
+M0371,EchoBuds Pro,Amazing audio and clear volume.,4
+M0372,EchoBuds Pro,"Beautiful, light and compact design.",4
+M0373,EchoBuds Pro,The sound is crisp with deep bass.,5
+M0374,EchoBuds Pro,The plastic feels cheap and flimsy.,1
+M0375,EchoBuds Pro,The plastic feels cheap and flimsy.,1
+M0376,EchoBuds Pro,"The sound is crisp with deep bass. Beautiful, light and compact design.",5
+M0377,EchoBuds Pro,The software is buggy and confusing. Battery performance is wonderful.,2
+M0378,EchoBuds Pro,Setup was simple and the interface is clean. The sound is crisp with deep bass.,5
+M0379,EchoBuds Pro,Music sounds fantastic on these.,5
+M0380,EchoBuds Pro,Amazing audio and clear volume.,4
+M0381,EchoBuds Pro,Battery performance is wonderful.,5
+M0382,EchoBuds Pro,The battery drains very quickly.,2
+M0383,EchoBuds Pro,"Poor build quality, started cracking.",2
+M0384,EchoBuds Pro,Amazing audio and clear volume.,5
+M0385,EchoBuds Pro,"Poor build quality, started cracking.",2
+M0386,EchoBuds Pro,The plastic feels cheap and flimsy.,1
+M0387,EchoBuds Pro,"Beautiful, light and compact design.",4
+M0388,EchoBuds Pro,The design is sleek and comfortable. Updates are quick and the menu is intuitive.,4
+M0389,EchoBuds Pro,"Great battery life, charging is fast.",5
+M0390,EchoBuds Pro,"The sound is crisp with deep bass. Poor build quality, started cracking.",5
+M0391,EchoBuds Pro,The software is buggy and confusing.,2
+M0392,EchoBuds Pro,"Amazing audio and clear volume. Great battery life, charging is fast.",5
+M0393,EchoBuds Pro,Battery performance is wonderful.,5
+M0394,EchoBuds Pro,Music sounds fantastic on these.,5
+M0395,EchoBuds Pro,Amazing audio and clear volume.,5
+M0396,EchoBuds Pro,The design is sleek and comfortable.,5
+M0397,EchoBuds Pro,"Poor build quality, started cracking. Updates are quick and the menu is intuitive.",2
+M0398,EchoBuds Pro,It broke after a month.,2
+M0399,EchoBuds Pro,"Beautiful, light and compact design. Setup was difficult and the app keeps crashing.",4
+M0400,EchoBuds Pro,The design is sleek and comfortable.,5
+M0401,FitBand 5,The design is sleek and comfortable.,4
+M0402,FitBand 5,"The display flickers, awful.",2
+M0403,FitBand 5,"Great battery life, charging is fast.",4
+M0404,FitBand 5,Cheap but excellent quality.,4
+M0405,FitBand 5,"Beautiful, light and compact design. Disappointing display with poor colors.",4
+M0406,FitBand 5,I love the look and feel.,4
+M0407,FitBand 5,The design is ugly and bulky.,1
+M0408,FitBand 5,"I love the look and feel. Terrible interface, updates break things.",4
+M0409,FitBand 5,Heavy and clumsy design.,2
+M0410,FitBand 5,"Terrible interface, updates break things.",2
+M0411,FitBand 5,Updates are quick and the menu is intuitive.,5
+M0412,FitBand 5,The design is sleek and comfortable.,4
+M0413,FitBand 5,I love the look and feel. Updates are quick and the menu is intuitive.,4
+M0414,FitBand 5,Setup was simple and the interface is clean.,4
+M0415,FitBand 5,Battery performance is wonderful.,5
+M0416,FitBand 5,Cheap but excellent quality.,5
+M0417,FitBand 5,The price is far too high.,2
+M0418,FitBand 5,I love the look and feel.,5
+M0419,FitBand 5,Battery performance is wonderful. The price is very fair for what you get.,4
+M0420,FitBand 5,Disappointing display with poor colors.,2
+M0421,FitBand 5,Great value for the money. The software is buggy and confusing.,5
+M0422,FitBand 5,Cheap but excellent quality.,5
+M0423,FitBand 5,"Overpriced, not worth the money.",2
+M0424,FitBand 5,Great value for the money.,4
+M0425,FitBand 5,The price is very fair for what you get.,4
+M0426,FitBand 5,The design is sleek and comfortable.,4
+M0427,FitBand 5,The software is buggy and confusing.,1
+M0428,FitBand 5,"Excellent screen, very sharp.",4
+M0429,FitBand 5,"Cheap but excellent quality. The display flickers, awful.",4
+M0430,FitBand 5,The battery easily lasts two days.,5
+M0431,FitBand 5,The design is sleek and comfortable.,5
+M0432,FitBand 5,Disappointing display with poor colors.,1
+M0433,FitBand 5,"Terrible interface, updates break things. Colors on the screen look stunning.",1
+M0434,FitBand 5,"Great battery life, charging is fast.",4
+M0435,FitBand 5,The design is sleek and comfortable. Battery performance is wonderful.,4
+M0436,FitBand 5,Setup was simple and the interface is clean.,5
+M0437,FitBand 5,The design is ugly and bulky. Cheap but excellent quality.,1
+M0438,FitBand 5,I love the look and feel.,4
+M0439,FitBand 5,"Great battery life, charging is fast.",4
+M0440,FitBand 5,Setup was difficult and the app keeps crashing. Cheap but excellent quality.,1
+M0441,FitBand 5,"Great battery life, charging is fast.",5
+M0442,FitBand 5,Colors on the screen look stunning. The battery easily lasts two days.,5
+M0443,FitBand 5,The display is bright and beautiful. The design is sleek and comfortable.,5
+M0444,FitBand 5,The design is ugly and bulky. Setup was simple and the interface is clean.,2
+M0445,FitBand 5,The price is very fair for what you get.,4
+M0446,FitBand 5,I love the look and feel.,5
+M0447,FitBand 5,The price is far too high. The display is bright and beautiful.,1
+M0448,FitBand 5,The price is far too high.,2
+M0449,FitBand 5,Battery performance is wonderful. The display is bright and beautiful.,4
+M0450,FitBand 5,"Excellent screen, very sharp.",4
+M0451,FitBand 5,The price is far too high.,1
+M0452,FitBand 5,The battery easily lasts two days. Setup was difficult and the app keeps crashing.,5
+M0453,FitBand 5,Setup was difficult and the app keeps crashing.,1
+M0454,FitBand 5,Setup was simple and the interface is clean.,5
+M0455,FitBand 5,I love the look and feel.,4
+M0456,FitBand 5,I love the look and feel. Updates are quick and the menu is intuitive.,4
+M0457,FitBand 5,Battery performance is wonderful. The software is buggy and confusing.,5
+M0458,FitBand 5,Battery performance is wonderful.,4
+M0459,FitBand 5,The price is far too high.,2
+M0460,FitBand 5,I love the look and feel.,4
+M0461,FitBand 5,Battery died after a few hours.,1
+M0462,FitBand 5,Great value for the money.,4
+M0463,FitBand 5,The battery easily lasts two days.,5
+M0464,FitBand 5,Battery performance is wonderful.,4
+M0465,FitBand 5,Setup was difficult and the app keeps crashing.,2
+M0466,FitBand 5,Heavy and clumsy design.,2
+M0467,FitBand 5,Cheap but excellent quality. The display is bright and beautiful.,4
+M0468,FitBand 5,Cheap but excellent quality. The screen is dim and washed out.,4
+M0469,FitBand 5,Colors on the screen look stunning. I love the look and feel.,5
+M0470,FitBand 5,The design is sleek and comfortable. Cheap but excellent quality.,5
+M0471,FitBand 5,Updates are quick and the menu is intuitive. The display is bright and beautiful.,5
+M0472,FitBand 5,The screen is dim and washed out.,2
+M0473,FitBand 5,The design is ugly and bulky.,1
+M0474,FitBand 5,The software is buggy and confusing. The design is sleek and comfortable.,2
+M0475,FitBand 5,The design is ugly and bulky.,2
+M0476,FitBand 5,Great value for the money.,4
+M0477,FitBand 5,"Great battery life, charging is fast. Heavy and clumsy design.",5
+M0478,FitBand 5,"Great battery life, charging is fast.",5
+M0479,FitBand 5,The battery easily lasts two days.,5
+M0480,FitBand 5,"Excellent screen, very sharp. Overpriced, not worth the money.",5
+M0481,FitBand 5,"The display flickers, awful.",1
+M0482,FitBand 5,"Great battery life, charging is fast.",5
+M0483,FitBand 5,"Beautiful, light and compact design.",5
+M0484,FitBand 5,Disappointing display with poor colors.,2
+M0485,FitBand 5,The display is bright and beautiful.,5
+M0486,FitBand 5,"Terrible battery life, charging is slow.",1
+M0487,FitBand 5,"Terrible interface, updates break things. Colors on the screen look stunning.",2
+M0488,FitBand 5,"Terrible battery life, charging is slow.",1
+M0489,FitBand 5,Updates are quick and the menu is intuitive.,5
+M0490,FitBand 5,"Excellent screen, very sharp. Way too expensive for what it offers.",5
+M0491,FitBand 5,The battery easily lasts two days.,4
+M0492,FitBand 5,"Beautiful, light and compact design.",5
+M0493,FitBand 5,Great value for the money.,5
+M0494,FitBand 5,Heavy and clumsy design.,2
+M0495,FitBand 5,Great value for the money.,5
+M0496,FitBand 5,Cheap but excellent quality.,5
+M0497,FitBand 5,The design is sleek and comfortable.,5
+M0498,FitBand 5,Way too expensive for what it offers.,1
+M0499,FitBand 5,The design is sleek and comfortable.,5
+M0500,FitBand 5,The price is very fair for what you get.,4
+M0501,GigaBook 14,"Overpriced, not worth the money. The screen is dim and washed out.",1
+M0502,GigaBook 14,Disappointing display with poor colors.,1
+M0503,GigaBook 14,The price is far too high.,2
+M0504,GigaBook 14,"Excellent screen, very sharp. Apps open quickly, very reliable.",4
+M0505,GigaBook 14,Excellent build quality.,4
+M0506,GigaBook 14,Cheap but excellent quality.,4
+M0507,GigaBook 14,The display is bright and beautiful. It runs fast with no lag.,5
+M0508,GigaBook 14,"Apps open quickly, very reliable.",5
+M0509,GigaBook 14,The battery easily lasts two days.,4
+M0510,GigaBook 14,Way too expensive for what it offers.,2
+M0511,GigaBook 14,Colors on the screen look stunning.,4
+M0512,GigaBook 14,"Great battery life, charging is fast.",5
+M0513,GigaBook 14,Excellent build quality.,5
+M0514,GigaBook 14,The price is far too high. The display is bright and beautiful.,2
+M0515,GigaBook 14,"Apps open quickly, very reliable.",4
+M0516,GigaBook 14,Feels sturdy with a premium metal body. Battery died after a few hours.,5
+M0517,GigaBook 14,Colors on the screen look stunning.,5
+M0518,GigaBook 14,Feels sturdy with a premium metal body.,5
+M0519,GigaBook 14,Way too expensive for what it offers.,1
+M0520,GigaBook 14,"Apps open quickly, very reliable.",5
+M0521,GigaBook 14,"Poor build quality, started cracking.",2
+M0522,GigaBook 14,"The display flickers, awful.",2
+M0523,GigaBook 14,"Great battery life, charging is fast.",4
+M0524,GigaBook 14,Colors on the screen look stunning.,5
+M0525,GigaBook 14,"Overpriced, not worth the money.",2
+M0526,GigaBook 14,"Way too expensive for what it offers. Poor build quality, started cracking.",1
+M0527,GigaBook 14,The screen is dim and washed out.,2
+M0528,GigaBook 14,Performance is excellent and very smooth.,4
+M0529,GigaBook 14,It is slow and laggy.,2
+M0530,GigaBook 14,"Overpriced, not worth the money.",1
+M0531,GigaBook 14,Colors on the screen look stunning.,5
+M0532,GigaBook 14,Battery performance is wonderful. The price is far too high.,5
+M0533,GigaBook 14,"Terrible battery life, charging is slow.",1
+M0534,GigaBook 14,"The screen is dim and washed out. Constant crashes, very sluggish.",2
+M0535,GigaBook 14,Excellent build quality.,4
+M0536,GigaBook 14,The price is very fair for what you get.,5
+M0537,GigaBook 14,"Overpriced, not worth the money. The display is bright and beautiful.",1
+M0538,GigaBook 14,"Terrible battery life, charging is slow.",2
+M0539,GigaBook 14,Performance is excellent and very smooth.,5
+M0540,GigaBook 14,The battery easily lasts two days.,4
+M0541,GigaBook 14,Performance is excellent and very smooth.,5
+M0542,GigaBook 14,"Way too expensive for what it offers. Constant crashes, very sluggish.",1
+M0543,GigaBook 14,"Apps open quickly, very reliable.",4
+M0544,GigaBook 14,"Apps open quickly, very reliable.",4
+M0545,GigaBook 14,The battery drains very quickly.,1
+M0546,GigaBook 14,Excellent build quality.,4
+M0547,GigaBook 14,"It runs fast with no lag. Poor build quality, started cracking.",5
+M0548,GigaBook 14,The battery drains very quickly. Feels sturdy with a premium metal body.,1
+M0549,GigaBook 14,"Poor build quality, started cracking.",1
+M0550,GigaBook 14,It runs fast with no lag. Colors on the screen look stunning.,5
+M0551,GigaBook 14,Battery performance is wonderful.,4
+M0552,GigaBook 14,Way too expensive for what it offers.,2
+M0553,GigaBook 14,"Poor build quality, started cracking.",2
+M0554,GigaBook 14,Cheap but excellent quality.,5
+M0555,GigaBook 14,"Excellent screen, very sharp.",5
+M0556,GigaBook 14,The screen is dim and washed out.,1
+M0557,GigaBook 14,It runs fast with no lag. The battery drains very quickly.,5
+M0558,GigaBook 14,Way too expensive for what it offers.,1
+M0559,GigaBook 14,Cheap but excellent quality. Feels sturdy with a premium metal body.,5
+M0560,GigaBook 14,"The build is solid and durable. Apps open quickly, very reliable.",5
+M0561,GigaBook 14,Battery performance is wonderful.,5
+M0562,GigaBook 14,The display is bright and beautiful.,5
+M0563,GigaBook 14,The display is bright and beautiful.,5
+M0564,GigaBook 14,"Great battery life, charging is fast. Colors on the screen look stunning.",4
+M0565,GigaBook 14,"Great battery life, charging is fast. Excellent screen, very sharp.",5
+M0566,GigaBook 14,The display is bright and beautiful.,5
+M0567,GigaBook 14,"Performance is excellent and very smooth. Terrible battery life, charging is slow.",4
+M0568,GigaBook 14,It runs fast with no lag. Excellent build quality.,5
+M0569,GigaBook 14,Performance is excellent and very smooth.,4
+M0570,GigaBook 14,Excellent build quality.,5
+M0571,GigaBook 14,It runs fast with no lag.,4
+M0572,GigaBook 14,"Apps open quickly, very reliable. The price is far too high.",4
+M0573,GigaBook 14,"Performance is bad, the apps freeze. Colors on the screen look stunning.",1
+M0574,GigaBook 14,"Way too expensive for what it offers. Excellent screen, very sharp.",1
+M0575,GigaBook 14,"Overpriced, not worth the money.",1
+M0576,GigaBook 14,The battery drains very quickly.,2
+M0577,GigaBook 14,Colors on the screen look stunning. It runs fast with no lag.,5
+M0578,GigaBook 14,"Overpriced, not worth the money. Apps open quickly, very reliable.",2
+M0579,GigaBook 14,"Overpriced, not worth the money.",2
+M0580,GigaBook 14,Excellent build quality.,4
+M0581,GigaBook 14,It broke after a month.,1
+M0582,GigaBook 14,Colors on the screen look stunning.,5
+M0583,GigaBook 14,"The display flickers, awful. It is slow and laggy.",2
+M0584,GigaBook 14,The price is far too high.,2
+M0585,GigaBook 14,The plastic feels cheap and flimsy.,2
+M0586,GigaBook 14,The price is far too high.,1
+M0587,GigaBook 14,The build is solid and durable.,5
+M0588,GigaBook 14,"Overpriced, not worth the money. Disappointing display with poor colors.",2
+M0589,GigaBook 14,It broke after a month.,2
+M0590,GigaBook 14,Great value for the money. Battery performance is wonderful.,4
+M0591,GigaBook 14,The battery easily lasts two days. Cheap but excellent quality.,4
+M0592,GigaBook 14,"Great battery life, charging is fast. Disappointing display with poor colors.",4
+M0593,GigaBook 14,Battery performance is wonderful.,5
+M0594,GigaBook 14,Performance is excellent and very smooth.,4
+M0595,GigaBook 14,"Poor build quality, started cracking.",1
+M0596,GigaBook 14,Performance is excellent and very smooth.,4
+M0597,GigaBook 14,"Overpriced, not worth the money.",2
+M0598,GigaBook 14,It runs fast with no lag.,4
+M0599,GigaBook 14,Cheap but excellent quality.,5
+M0600,GigaBook 14,"Great battery life, charging is fast. Way too expensive for what it offers.",4

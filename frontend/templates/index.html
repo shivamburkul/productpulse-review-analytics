@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ProductPulse - Understand Every Review</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<svg class="waves" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true"><path class="w1" d="M0 120 C240 40 480 200 720 120 C960 40 1200 200 1440 120 C1680 40 1920 200 2160 120 C2400 40 2640 200 2880 120 V220 H0Z"/><path class="w2" d="M0 150 C240 90 480 210 720 150 C960 90 1200 210 1440 150 C1680 90 1920 210 2160 150 C2400 90 2640 210 2880 150 V220 H0Z"/></svg>
+
+<div id="landing" class="screen">
+  <div class="brand"><span class="logo-drop"></span><b>Product<em>Pulse</em></b></div>
+  <div class="landing-grid">
+    <div class="intro">
+      <h1>ProductPulse — <span class="grad">Understand Every Review.</span></h1>
+      <p>Upload a CSV of customer reviews and ProductPulse shows what people feel, which features they talk about, how products compare, and how you can prove your dataset has not been changed.</p>
+      <ul class="points"><li>Sentiment for every review</li><li>Feature-level insights for each product</li><li>Product comparison and trends</li><li>Dataset integrity fingerprint</li></ul>
+    </div>
+    <div class="glass uploader">
+      <label id="drop" class="dropzone" for="file">
+        <input type="file" id="file" accept=".csv,.txt">
+        <div class="up-icon">&#8679;</div>
+        <b>Drag and drop your CSV here</b>
+        <span class="muted">or</span>
+        <span class="btn ghost" id="browse">Browse File</span>
+        <div id="chip" class="chip hidden"></div>
+      </label>
+      <button id="go" class="big" disabled>Upload and Analyze</button>
+      <div id="up-error" class="alert bad hidden"></div>
+      <div class="req">
+        <b>CSV requirements</b>
+        <ul>
+          <li>Header row with a <b>product</b> column (<code>product</code>, <code>product_name</code>) and a <b>review text</b> column (<code>review</code>, <code>comment</code>, <code>text</code>, <code>review_text</code>)</li>
+          <li>Optional: <code>rating</code>, <code>date</code> / <code>review_date</code>, <code>review_id</code></li>
+          <li>.csv, up to 100 MB. Without dates, trends are shown as review groups.</li>
+        </ul>
+      </div>
+      <a id="back-app" class="link hidden">&larr; Back to current analysis</a>
+    </div>
+  </div>
+</div>
+
+<div id="processing" class="screen hidden">
+  <div class="glass proc">
+    <div class="ring"><i></i></div>
+    <h2>Analyzing your reviews</h2>
+    <p class="muted" id="proc-file"></p>
+    <ul id="stages" class="stages"></ul>
+    <div class="bar-indet"><i></i></div>
+    <div id="proc-error" class="alert bad hidden"></div>
+    <button id="proc-retry" class="hidden">Try another file</button>
+  </div>
+</div>
+
+<div id="app" class="hidden">
+<aside class="glass">
+  <div class="logo"><span class="logo-drop"></span><b>Product<em>Pulse</em></b></div>
+  <nav>
+    <a data-page="dashboard" class="active"><i>&#9673;</i>Dashboard</a>
+    <a data-page="insights"><i>&#9638;</i>Product Insights</a>
+    <a data-page="analyzer"><i>&#9998;</i>Review Analyzer</a>
+    <a data-page="trends"><i>&#8767;</i>Trends</a>
+    <a data-page="verification"><i>&#9939;</i>Verification</a>
+    <a data-page="reports"><i>&#10064;</i>Reports</a>
+  </nav>
+  <div class="side-foot"><div class="dsname" id="side-ds"></div><button class="ghost" id="new-ds">Upload new dataset</button></div>
+</aside>
+<main>
+<section id="dashboard" class="page">
+  <header class="hero glass"><div><h2>Dashboard</h2><p>A summary of what customers say across all products in this dataset.</p></div><div id="hero-pills" class="pills"></div></header>
+  <div class="kpis" id="kpis"></div>
+  <div class="grid3">
+    <div class="card glass sentiment-card"><h3>Overall Sentiment</h3><p class="desc">Shows whether customers feel positive, negative, neutral or mixed.</p><div class="donut-wrap"><div class="cv" id="cv-c-sent"><canvas id="c-sent"></canvas></div><div class="donut-center" id="sent-center"></div></div></div>
+    <div class="card glass"><h3>Most Discussed Features</h3><p class="desc">Counts how often each product feature is mentioned in reviews.</p><div class="cv" id="cv-c-cat"><canvas id="c-cat"></canvas></div></div>
+    <div class="card glass"><h3>Product Ranking</h3><p class="desc">Ranks products by average sentiment score, from -1 (negative) to +1 (positive).</p><div id="leaderboard"></div></div>
+  </div>
+  <div class="card glass"><h3>Feature Satisfaction</h3><p class="desc">Shows how positive or negative reviews are about each feature of each product.</p><div class="scroll" id="heatmap"></div><div id="heat-legend" class="legend-bar"></div></div>
+  <div class="grid2">
+    <div class="card glass"><h3>Common Words</h3><p class="desc">The most frequent meaningful words in reviews; bigger words appear more often.</p><div id="cloud" class="cloud"></div></div>
+    <div class="card glass"><h3>Reviews by Product</h3><p class="desc">Counts the reviews available for each product, split by sentiment.</p><div class="cv" id="cv-c-prod"><canvas id="c-prod"></canvas></div></div>
+  </div>
+</section>
+
+<section id="insights" class="page hidden">
+  <header class="hero glass"><div><h2>Product Insights</h2><p>Look at one product in depth, or compare two products side by side.</p></div><div class="seg" id="mode"><button data-mode="single" class="on">Single Product</button><button data-mode="compare">Compare Products</button></div></header>
+  <div class="glass bar"><label>Product <select id="ins-a"></select></label><label id="lab-b" class="hidden">Compare with <select id="ins-b"></select></label></div>
+  <div id="single">
+    <div class="grid-hero">
+      <div class="card glass profile" id="profile"></div>
+      <div class="card glass"><h3>Product Summary</h3><p class="desc">Written from this product's reviews: strengths, complaints and most discussed features.</p><p id="i-summary" class="summary-text"></p><div id="i-chips"></div></div>
+    </div>
+    <div class="grid3">
+      <div class="card glass sentiment-card"><h3>Sentiment Distribution</h3><p class="desc">Share of this product's reviews in each sentiment group.</p><div class="cv" id="cv-i-sent"><canvas id="i-sent"></canvas></div></div>
+      <div class="card glass"><h3>Feature Sentiment</h3><p class="desc">Average sentiment of review sentences about each feature (-1 to +1).</p><div class="cv" id="cv-i-feat"><canvas id="i-feat"></canvas></div></div>
+      <div class="card glass"><h3>Frequently Discussed Topics</h3><p class="desc">The words used most often in this product's reviews.</p><div class="cv" id="cv-i-kw"><canvas id="i-kw"></canvas></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card glass"><h3>What Customers Like</h3><p class="desc">The most positive real reviews for this product.</p><div id="i-pros"></div></div>
+      <div class="card glass"><h3>What Customers Dislike</h3><p class="desc">The most negative real reviews for this product.</p><div id="i-cons"></div></div>
+    </div>
+  </div>
+  <div id="compare" class="hidden">
+    <div class="card glass"><h3>Key Differences</h3><p class="desc">A plain-language comparison generated from both products' results.</p><div id="c-diff"></div></div>
+    <div class="grid2">
+      <div class="card glass"><h3>Key Metrics</h3><p class="desc">Side-by-side numbers; green marks the better value.</p><div id="c-table"></div></div>
+      <div class="card glass"><h3>Sentiment Distribution</h3><p class="desc">Percentage of each product's reviews in each sentiment group.</p><div class="cv" id="cv-c-dist"><canvas id="c-dist"></canvas></div></div>
+    </div>
+    <div class="grid2">
+      <div class="card glass"><h3>Feature Performance</h3><p class="desc">Average sentiment per feature for both products (-1 to +1).</p><div class="cv" id="cv-c-radar"><canvas id="c-radar"></canvas></div></div>
+      <div class="card glass"><h3>Feature Mentions</h3><p class="desc">How many times each feature is mentioned for each product.</p><div class="cv" id="cv-c-ment"><canvas id="c-ment"></canvas></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="analyzer" class="page hidden">
+  <header class="hero glass"><div><h2>Review Analyzer</h2><p>Search the dataset, click a review, and see how it is understood step by step.</p></div></header>
+  <div class="card glass">
+    <h3>Find a Review</h3><p class="desc">Filter by product and search words inside the review text.</p>
+    <div class="toolbar"><select id="an-product"></select><input id="an-search" placeholder="Search words in reviews, e.g. battery"><button id="an-find">Search</button></div>
+    <div id="an-count" class="muted"></div><div id="an-results" class="results"></div>
+  </div>
+  <div class="card glass"><h3>Or Analyze Your Own Text</h3><p class="desc">Type or paste any review to analyze it.</p><textarea id="an-text" rows="3" placeholder="Type or paste a review..."></textarea><button id="an-run">Analyze Review</button></div>
+  <div id="an-result"></div>
+</section>
+
+<section id="trends" class="page hidden">
+  <header class="hero glass"><div><h2>Trends</h2><p>How opinion changes over time, or across review groups when no dates exist.</p></div><div class="toolbar"><label>Product <select id="tr-product"></select></label></div></header>
+  <div id="tr-note" class="alert info hidden"></div>
+  <div class="grid2">
+    <div class="card glass"><h3>Average Sentiment</h3><p class="desc" id="d-t1"></p><div class="cv" id="cv-t-score"><canvas id="t-score"></canvas></div></div>
+    <div class="card glass"><h3>Review Volume</h3><p class="desc" id="d-t2"></p><div class="cv" id="cv-t-vol"><canvas id="t-vol"></canvas></div></div>
+  </div>
+  <div class="grid2">
+    <div class="card glass"><h3>Positive vs Negative Reviews</h3><p class="desc" id="d-t3"></p><div class="cv" id="cv-t-pn"><canvas id="t-pn"></canvas></div></div>
+    <div class="card glass"><h3>Feature Sentiment Across Products</h3><p class="desc">Average sentiment of review sentences about each feature, using all products.</p><div class="cv" id="cv-t-feat"><canvas id="t-feat"></canvas></div></div>
+  </div>
+</section>
+
+<section id="verification" class="page hidden">
+  <header class="hero glass"><div><h2>Dataset Integrity Verification</h2><p>Register a fingerprint of your dataset, then check later whether any review has changed.</p></div><div id="ledger-state"></div></header>
+  <div class="steps">
+    <div><b>1</b>Register<small>Saves a fingerprint (Merkle root) of every row in the ledger</small></div>
+    <div><b>2</b>Verify<small>Recalculates the fingerprint and compares it</small></div>
+    <div><b>3</b>Demonstrate<small>Edit one review in a copy and see the mismatch</small></div>
+  </div>
+  <div class="grid2">
+    <div class="card glass">
+      <h3>Current Dataset</h3><p class="desc">The dataset you are viewing. Your uploaded file is never edited.</p>
+      <div id="v-current"></div>
+      <div class="actions">
+        <div><button id="v-register">Register Dataset Integrity</button><p class="desc">Records a permanent fingerprint of this dataset so later changes can be detected.</p></div>
+        <div><button id="v-verify" class="ghost">Verify Dataset</button><p class="desc">Recalculates the fingerprint and compares it with the registered one.</p></div>
+        <div><button id="v-sim" class="danger">Simulate Review Modification</button><p class="desc">Changes one random review in a working copy so you can see the mismatch.</p></div>
+        <div><button id="v-reset" class="ghost">Reset Demonstration</button><p class="desc">Restores the working copy to the original data.</p></div>
+      </div>
+    </div>
+    <div class="card glass"><h3>Result</h3><p class="desc">The outcome of the latest action appears here.</p><div id="v-result" class="muted">No action yet.</div></div>
+  </div>
+  <div class="card glass"><h3>How It Works</h3><p class="desc">What is stored and what is checked.</p>
+    <div class="explain"><div><b>Fingerprint</b>Each row is turned into a SHA-256 hash. Hashes are combined in a Merkle tree into one root value for the whole file.</div>
+    <div><b>Ledger</b>Only the root, file name, row count and time are stored, in an append-only chain of blocks on this computer. It is not Ethereum or any public network.</div>
+    <div><b>Verification</b>The current rows are hashed again. A different root means at least one row changed; the changed rows are listed.</div>
+    <div><b>Limits</b>A mismatch shows that data differs from the registered version, not why. The ledger cannot tell whether a review is true.</div></div></div>
+  <div class="card glass"><h3>Registered Datasets</h3><p class="desc">Every dataset registered so far. Records stay after restarts and new uploads.</p><div class="scroll" id="v-history"></div></div>
+  <div class="card glass"><h3>Ledger</h3><p class="desc">Each block holds the hash of the block before it, so changing an old block breaks the chain. <button id="sim-tamper" class="ghost small">Simulate ledger tampering</button></p><div id="v-chain" class="chain"></div><div id="sim-out"></div></div>
+</section>
+
+<section id="reports" class="page hidden">
+  <header class="hero glass"><div><h2>Reports</h2><p>Download the results of this dataset or check how it was processed.</p></div><div id="r-pills" class="pills"></div></header>
+  <div class="grid3">
+    <div class="card glass export"><h3>Product Report (CSV)</h3><p class="desc">Product-level counts, scores and summaries; opens in Excel.</p><a class="btn" href="/api/report.csv">Download CSV</a></div>
+    <div class="card glass export"><h3>Full Analytics (JSON)</h3><p class="desc">All results of this dataset in a structured file.</p><a class="btn" href="/api/report.json">Download JSON</a></div>
+    <div class="card glass export"><h3>PDF Report</h3><p class="desc">A formatted report with sentiment, products and summaries.</p><a class="btn" href="/api/report.pdf">Download PDF</a></div>
+  </div>
+  <div class="grid2">
+    <div class="card glass"><h3>Data Processing</h3><p class="desc">What happened to the rows of your file.</p><div id="r-flow" class="flow-chips"></div><div id="r-meta"></div></div>
+    <div class="card glass"><h3>Product Ranking</h3><p class="desc">Products ordered by average sentiment score (-1 to +1).</p><div class="scroll" id="r-board"></div></div>
+  </div>
+  <div class="card glass"><h3>Review Preview</h3><p class="desc">A sample of analysed reviews, not the whole dataset. <label class="inline">Rows <select id="r-n"><option>10</option><option>25</option><option>50</option><option>100</option></select></label></p><div class="scroll" id="r-preview"></div><div id="r-count" class="muted"></div></div>
+</section>
+</main>
+</div>
+<div id="toasts"></div>
+<script src="/static/chart.umd.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
